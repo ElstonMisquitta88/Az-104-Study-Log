@@ -44,4 +44,11 @@ Azure shared disks is a feature for Azure managed disks that allow you to attach
 to multiple virtual machines (VMs) simultaneously. 
 Attaching a managed disk to multiple VMs allows you to either deploy new or migrate existing clustered applications to Azure.
 ```
-- [ ] Custom Script Extensions
+
+> **14/03/2023**
+- [X] Custom Script Extensions
+```
+The Custom Script Extension downloads and runs scripts on Azure virtual machines (VMs). 
+This extension is useful for post-deployment configuration, software installation, or any other configuration or management task. 
+You can download scripts from Azure Storage or GitHub, or provide them to the Azure portal at extension runtime.
+```
