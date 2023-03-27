@@ -2,13 +2,14 @@
 
 **(1) Deploy and Manage Azure Compute resources**
 
-> **01/03/2023**
+>**$\textcolor{red}{\textsf{01/03/2023}}$**
 
 - [x] Buliding a Windows Virtual Machine
 - [x] Connecting to a VM
 - [x] VM Machine Disks
 - [x] Az Disk - Server Side Encryption
 ```
+
 Azure Disk Storage Server-Side Encryption (also referred to as encryption-at-rest or Azure Storage encryption)
 automatically encrypts data stored on Azure managed disks (OS and data disks) when persisting on the Storage Clusters.
 When configured with a Disk Encryption Set (DES), it supports customer-managed keys as well
@@ -29,7 +30,7 @@ ADE is integrated with Azure Key Vault to help you control and manage the disk e
 
 
 
-> **13/03/2023**
+>**$\textcolor{red}{\textsf{13/03/2023}}$**
 
 - [x] Data Disk Snapshots
 ```
@@ -45,7 +46,7 @@ to multiple virtual machines (VMs) simultaneously.
 Attaching a managed disk to multiple VMs allows you to either deploy new or migrate existing clustered applications to Azure.
 ```
 
-> **14/03/2023**
+>**$\textcolor{red}{\textsf{14/03/2023}}$**
 - [X] Custom Script Extensions
 ```
 The Custom Script Extension downloads and runs scripts on Azure virtual machines (VMs). 
@@ -53,7 +54,7 @@ This extension is useful for post-deployment configuration, software installatio
 You can download scripts from Azure Storage or GitHub, or provide them to the Azure portal at extension runtime.
 ```
 
-> **27/03/2023**
+>**$\textcolor{red}{\textsf{27/03/2023}}$**
 - [X] Boot Diagnostics
 ```
 Troubleshoot the startup of an Azure Virtual Machine.
