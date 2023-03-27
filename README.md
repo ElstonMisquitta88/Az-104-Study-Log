@@ -52,3 +52,36 @@ The Custom Script Extension downloads and runs scripts on Azure virtual machines
 This extension is useful for post-deployment configuration, software installation, or any other configuration or management task. 
 You can download scripts from Azure Storage or GitHub, or provide them to the Azure portal at extension runtime.
 ```
+
+> **27/03/2023**
+- [X] Boot Diagnostics
+```
+Troubleshoot the startup of an Azure Virtual Machine.
+Use this feature to troubleshoot boot failures for custom or platform images.
+Data will be stored in a storage account
+```
+
+- [X] AZ VM Run Command
+```
+The Run Command feature uses the virtual machine (VM) agent to run PowerShell scripts within an Azure Windows VM. 
+You can use these scripts for general machine or application management. 
+They can help you to quickly diagnose and remediate VM access and network issues and get the VM back to a good state.
+```
+
+
+- [X] Azure Confidential Computing
+```
+This is a feature that allows you to isolate sensitive data when it is being processed in the cloud.
+This feature is available for your virtual machines. 
+In Confidential computing , a part of the CPU’s hardware is reserved for the portion of code and data in your application.
+This portion is known as an enclave.
+```
+
+- [X] Azure Dedicated Hosts
+```
+This service provides physical servers to host virtual machines. 
+The physical server is dedicate to the Azure subscription.
+The benefits of Azure Dedicated Hosts is that no other virtual machines from any other customers 
+would be placed on the physical server.
+You can also control the maintenance events that are initiated on the Azure platform.
+```
